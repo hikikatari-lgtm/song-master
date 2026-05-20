@@ -342,6 +342,34 @@ export const songs: Song[] = [
       "Robert Johnsonの原曲をCreamがロックアレンジした伝説のライブバージョン。Eric Claptonのブルースギターの真髄。",
     tips: "Aマイナーペンタトニック＋メジャーペンタトニックの切り替えがClaptonスタイルの核。高速シャッフルでのピッキングコントロールに注目。",
   },
+  {
+    slug: "black-dog",
+    title: "Black Dog",
+    artist: "Led Zeppelin",
+    key: "A",
+    bpm: 80,
+    genre: "Rock",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "245d2abb19274d36b01251693d5365fc",
+    background:
+      "Led Zeppelinの「Black Dog」。変拍子的なギターリフとコール&レスポンスの構成が特徴。Jimmy Pageのリフワークの真骨頂。",
+    tips: "リズムが複雑に聞こえるが、基本は4/4拍子の上でのシンコペーション。リフのアクセント位置を正確に掴むことが鍵。",
+  },
+  {
+    slug: "voodoo-child-slight-return",
+    title: "Voodoo Child (Slight Return)",
+    artist: "Stevie Ray Vaughan",
+    key: "E",
+    bpm: 88,
+    genre: "Blues",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "240bba3cdb994e299af647a36a5a97ad",
+    background:
+      "Jimi Hendrix原曲をStevie Ray Vaughanがカバー。SRVの圧倒的なテクニックとブルースフィーリングが炸裂する名演。",
+    tips: "ワウペダルを使ったファンキーなリフとアグレッシブなブルースソロ。SRV特有の太いトーンとベンドの表現力に注目。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
