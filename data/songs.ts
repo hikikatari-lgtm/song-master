@@ -132,6 +132,20 @@ export const songs: Song[] = [
       "The Beatlesの名曲「Oh! Darling」のベースライン。Paul McCartneyのエモーショナルなボーカルを支えるベースパートを学べます。",
     tips: "シンプルだけど味のあるベースライン。ルート中心の動きの中で、経過音やアプローチノートがどう使われているかに注目。",
   },
+  {
+    slug: "billie-jean",
+    title: "Billie Jean",
+    artist: "Michael Jackson",
+    key: "F#m",
+    bpm: 117,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "a936e940f61342849e1d482fbc6644ab",
+    background:
+      "Michael Jacksonの代表曲「Billie Jean」のベースライン。Louis Johnsonが弾いた世界一有名なベースラインの一つ。シンプルながらグルーブ感抜群。",
+    tips: "オクターブを使ったシンプルなベースラインだが、タイミングとダイナミクスが命。ゴーストノートの入れ方でグルーブが大きく変わる。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
