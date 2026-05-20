@@ -90,6 +90,20 @@ export const songs: Song[] = [
       "Dua Lipaの大ヒット曲をSnarky Puppyのキーボーディストがカバー。ファンクやジャズの要素を取り入れたグルーヴィーなキーボードアレンジが学べます。",
     tips: "ファンキーなリズムパターンとコードボイシングに注目。シンコペーションの使い方やグルーブの作り方が参考になります。",
   },
+  {
+    slug: "power",
+    title: "Power",
+    artist: "Marcus Miller",
+    key: "Em",
+    bpm: 108,
+    genre: "Jazz",
+    level: "advanced",
+    instrument: "bass",
+    loomId: "ed171f571f0e45d78948c451b8bf7ea1",
+    background:
+      "Marcus Millerの代表曲「Power」のベースTAB譜付きレッスン。スラップベースの真髄が詰まった一曲。ファンク/ジャズフュージョンのグルーブを体感できます。",
+    tips: "スラップ＆ポップのテクニックに注目。サムピング、プル、ゴーストノートの組み合わせがMarcus Millerサウンドの核。TAB譜付きで細かいフレーズまで確認できます。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
