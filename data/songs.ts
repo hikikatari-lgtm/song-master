@@ -118,6 +118,20 @@ export const songs: Song[] = [
       "Jamiroquaiの代表曲「Cosmic Girl」のベースライン。ディスコ/ファンクのグルーヴィーなベースラインを学べます。Stuart Zenderの名演。",
     tips: "16分音符のファンキーなベースラインに注目。オクターブ奏法とゴーストノートの組み合わせがこの曲のグルーブの核。",
   },
+  {
+    slug: "oh-darling",
+    title: "Oh! Darling",
+    artist: "The Beatles",
+    key: "A",
+    bpm: 58,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "a3424b0582fb4c4fba8444ee5ec7d132",
+    background:
+      "The Beatlesの名曲「Oh! Darling」のベースライン。Paul McCartneyのエモーショナルなボーカルを支えるベースパートを学べます。",
+    tips: "シンプルだけど味のあるベースライン。ルート中心の動きの中で、経過音やアプローチノートがどう使われているかに注目。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
