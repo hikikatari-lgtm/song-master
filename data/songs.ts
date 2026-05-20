@@ -146,6 +146,20 @@ export const songs: Song[] = [
       "Michael Jacksonの代表曲「Billie Jean」のベースライン。Louis Johnsonが弾いた世界一有名なベースラインの一つ。シンプルながらグルーブ感抜群。",
     tips: "オクターブを使ったシンプルなベースラインだが、タイミングとダイナミクスが命。ゴーストノートの入れ方でグルーブが大きく変わる。",
   },
+  {
+    slug: "the-chain",
+    title: "The Chain",
+    artist: "Fleetwood Mac",
+    key: "Em",
+    bpm: 152,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "849bd5724c994b4ebec4645d7bc63663",
+    background:
+      "Fleetwood Macの名曲「The Chain」のベースライン。John McVieの象徴的なベースリフは、ロック史上最も有名なベースラインの一つ。F1のテーマとしても知られる。",
+    tips: "後半のベースリフが最大の見どころ。シンプルなルートの動きから劇的に展開するベースソロパートに注目。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
