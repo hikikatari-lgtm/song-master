@@ -174,6 +174,20 @@ export const songs: Song[] = [
       "Jamiroquaiの「Space Cowboy」のベースライン。Stuart Zenderのグルーヴィーなファンクベースが光る一曲。アシッドジャズ/ファンクの代表的なベースライン。",
     tips: "16分音符のファンキーなグルーブとゴーストノートの使い方に注目。Cosmic Girlと合わせてJamiroquaiのベーススタイルを体系的に学べます。",
   },
+  {
+    slug: "just-the-two-of-us",
+    title: "Just The Two Of Us",
+    artist: "Grover Washington Jr. / Bill Withers",
+    key: "Db",
+    bpm: 97,
+    genre: "Jazz",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "d8fa59e8b94348b89119c521812dbc05",
+    background:
+      "Grover Washington Jr.とBill Withersの名曲「Just The Two Of Us」のベースライン。スムースジャズの定番で、メロディアスなベースラインが特徴。",
+    tips: "コードトーンを中心としたメロディアスなベースライン。ルートだけでなく3度や5度へのアプローチに注目。スムースなグルーブ感を意識して。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
