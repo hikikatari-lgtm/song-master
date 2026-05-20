@@ -104,6 +104,20 @@ export const songs: Song[] = [
       "Marcus Millerの代表曲「Power」のベースTAB譜付きレッスン。スラップベースの真髄が詰まった一曲。ファンク/ジャズフュージョンのグルーブを体感できます。",
     tips: "スラップ＆ポップのテクニックに注目。サムピング、プル、ゴーストノートの組み合わせがMarcus Millerサウンドの核。TAB譜付きで細かいフレーズまで確認できます。",
   },
+  {
+    slug: "cosmic-girl",
+    title: "Cosmic Girl",
+    artist: "Jamiroquai",
+    key: "Dm",
+    bpm: 120,
+    genre: "Funk",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "a5f1caa422dc48048bb6dcee52009444",
+    background:
+      "Jamiroquaiの代表曲「Cosmic Girl」のベースライン。ディスコ/ファンクのグルーヴィーなベースラインを学べます。Stuart Zenderの名演。",
+    tips: "16分音符のファンキーなベースラインに注目。オクターブ奏法とゴーストノートの組み合わせがこの曲のグルーブの核。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
