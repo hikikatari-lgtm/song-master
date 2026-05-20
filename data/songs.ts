@@ -62,6 +62,20 @@ export const songs: Song[] = [
       "Eaglesの代表曲「Hotel California」のツインギターソロを徹底解説。TAB譜付きでギターソロのフレーズを一つ一つ分解して学べます。ロックギターの教科書的な名演。",
     tips: "ツインギターのハーモニーパートに注目。Bmペンタトニック＋ドリアンスケールを使ったフレージング。ベンド、ビブラート、スライドなどのテクニックも満載。23分の詳細解説。",
   },
+  {
+    slug: "a-taste-of-honey",
+    title: "A Taste Of Honey",
+    artist: "The Beatles",
+    key: "Fm",
+    bpm: 110,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "fd977529856d4439b1fa7051dc619e2d",
+    background:
+      "The Beatlesの初期の名曲。オリジナルはBobby Scottの作曲で、Beatlesがカバー。アコースティックギターでのフィンガーピッキングやストロークパターンを学べます。",
+    tips: "TAB譜付きのギターレッスン動画。デモ演奏から始まり、フレーズを丁寧に解説。6分のコンパクトなレッスン。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
