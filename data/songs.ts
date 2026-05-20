@@ -300,6 +300,48 @@ export const songs: Song[] = [
       "Bob Dylanの原曲をJimi Hendrixが大胆にアレンジした伝説のカバー。ギターの表現力の頂点を示す一曲。",
     tips: "スライドギター、ワウペダル、フィードバックなどHendrixのテクニックの集大成。複数のギターパートが重なる構成を理解しよう。",
   },
+  {
+    slug: "purple-haze",
+    title: "Purple Haze",
+    artist: "Jimi Hendrix",
+    key: "E",
+    bpm: 108,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "electric-guitar",
+    loomId: "0564a305b2cb4942bbc459b2076b4e34",
+    background:
+      "Jimi Hendrixの代表曲「Purple Haze」。E7#9（ヘンドリックスコード）で始まる象徴的なリフはロックギターの金字塔。",
+    tips: "E7#9コードのフォームとオクターブ奏法に注目。ファズトーンでのアグレッシブなプレイスタイルを学べます。",
+  },
+  {
+    slug: "eye-of-the-tiger",
+    title: "Eye Of The Tiger",
+    artist: "Survivor",
+    key: "Cm",
+    bpm: 109,
+    genre: "Rock",
+    level: "beginner",
+    instrument: "electric-guitar",
+    loomId: "344d17f36f9b4d879ed9d0dd6d0313be",
+    background:
+      "映画「ロッキーIII」のテーマ曲。シンプルながら力強いギターリフは、ロックギター入門に最適。",
+    tips: "パワーコードとミュートを使ったリフワーク。リズムの正確さとパームミュートのコントロールが鍵。初心者でも挑戦しやすい。",
+  },
+  {
+    slug: "crossroads",
+    title: "Crossroads",
+    artist: "Eric Clapton / Cream",
+    key: "A",
+    bpm: 130,
+    genre: "Blues",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "b0b4ea5685a6450e9f3a11de078b24e3",
+    background:
+      "Robert Johnsonの原曲をCreamがロックアレンジした伝説のライブバージョン。Eric Claptonのブルースギターの真髄。",
+    tips: "Aマイナーペンタトニック＋メジャーペンタトニックの切り替えがClaptonスタイルの核。高速シャッフルでのピッキングコントロールに注目。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
