@@ -160,6 +160,20 @@ export const songs: Song[] = [
       "Fleetwood Macの名曲「The Chain」のベースライン。John McVieの象徴的なベースリフは、ロック史上最も有名なベースラインの一つ。F1のテーマとしても知られる。",
     tips: "後半のベースリフが最大の見どころ。シンプルなルートの動きから劇的に展開するベースソロパートに注目。",
   },
+  {
+    slug: "space-cowboy",
+    title: "Space Cowboy",
+    artist: "Jamiroquai",
+    key: "Em",
+    bpm: 112,
+    genre: "Funk",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "bef42dfae6bb4b43afc9cd751d987078",
+    background:
+      "Jamiroquaiの「Space Cowboy」のベースライン。Stuart Zenderのグルーヴィーなファンクベースが光る一曲。アシッドジャズ/ファンクの代表的なベースライン。",
+    tips: "16分音符のファンキーなグルーブとゴーストノートの使い方に注目。Cosmic Girlと合わせてJamiroquaiのベーススタイルを体系的に学べます。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
