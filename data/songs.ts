@@ -188,6 +188,34 @@ export const songs: Song[] = [
       "Grover Washington Jr.とBill Withersの名曲「Just The Two Of Us」のベースライン。スムースジャズの定番で、メロディアスなベースラインが特徴。",
     tips: "コードトーンを中心としたメロディアスなベースライン。ルートだけでなく3度や5度へのアプローチに注目。スムースなグルーブ感を意識して。",
   },
+  {
+    slug: "too-young-to-die",
+    title: "Too Young To Die",
+    artist: "Jamiroquai",
+    key: "Am",
+    bpm: 108,
+    genre: "Funk",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "a1277d7fc5144d9bb610885ff59e2d53",
+    background:
+      "Jamiroquaiの「Too Young To Die」のベースライン。Stuart Zenderのファンキーなベースが際立つ一曲。アシッドジャズの名曲。",
+    tips: "Jamiroquaiベースシリーズ3曲目。Cosmic Girl、Space Cowboyと合わせてStuart Zenderのスタイルを体系的に学べます。",
+  },
+  {
+    slug: "september",
+    title: "September",
+    artist: "Earth, Wind & Fire",
+    key: "Ab",
+    bpm: 126,
+    genre: "Funk",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "7c8f6ae158fd4b22acbf21d04f2b15d1",
+    background:
+      "Earth, Wind & Fireの代表曲「September」のベースライン。Verdine Whiteのエネルギッシュなファンクベースが光る世界的大ヒット曲。",
+    tips: "オクターブ奏法とシンコペーションの組み合わせに注目。ディスコ/ファンクのグルーブ感を体感できる名ベースライン。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
