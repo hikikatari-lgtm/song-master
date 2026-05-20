@@ -216,6 +216,20 @@ export const songs: Song[] = [
       "Earth, Wind & Fireの代表曲「September」のベースライン。Verdine Whiteのエネルギッシュなファンクベースが光る世界的大ヒット曲。",
     tips: "オクターブ奏法とシンコペーションの組み合わせに注目。ディスコ/ファンクのグルーブ感を体感できる名ベースライン。",
   },
+  {
+    slug: "africa",
+    title: "Africa",
+    artist: "Toto",
+    key: "A",
+    bpm: 93,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "bass",
+    loomId: "c8182b28278e4bd7b04899e1e0dbf3b3",
+    background:
+      "Totoの代表曲「Africa」のベースライン。David Hungate/Mike Porcaroのメロディアスなベースラインが曲を支える。80年代ロックの金字塔。",
+    tips: "Verse→Chorusでのベースラインの変化に注目。コードチェンジに合わせたスムースなラインの作り方を学べます。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
