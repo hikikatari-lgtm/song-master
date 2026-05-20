@@ -48,6 +48,20 @@ export const songs: Song[] = [
       "Bee Geesの名曲をJoshua Domfehがジャズピアノアレンジ。美しいコードボイシングとメロディの解釈が学べます。",
     tips: "楽譜付き演奏動画。ボイシングの配置とメロディラインの処理に注目。Key=Gbのフラット系キーでの演奏に慣れるのにも良い教材です。",
   },
+  {
+    slug: "hotel-california",
+    title: "Hotel California",
+    artist: "Eagles",
+    key: "Bm",
+    bpm: 75,
+    genre: "Rock",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "1c93fba7edfc45f48e403288c50f5caa",
+    background:
+      "Eaglesの代表曲「Hotel California」のツインギターソロを徹底解説。TAB譜付きでギターソロのフレーズを一つ一つ分解して学べます。ロックギターの教科書的な名演。",
+    tips: "ツインギターのハーモニーパートに注目。Bmペンタトニック＋ドリアンスケールを使ったフレージング。ベンド、ビブラート、スライドなどのテクニックも満載。23分の詳細解説。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
