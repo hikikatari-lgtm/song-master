@@ -76,6 +76,20 @@ export const songs: Song[] = [
       "The Beatlesの初期の名曲。オリジナルはBobby Scottの作曲で、Beatlesがカバー。アコースティックギターでのフィンガーピッキングやストロークパターンを学べます。",
     tips: "TAB譜付きのギターレッスン動画。デモ演奏から始まり、フレーズを丁寧に解説。6分のコンパクトなレッスン。",
   },
+  {
+    slug: "dont-start-now",
+    title: "Don't Start Now",
+    artist: "Dua Lipa (Snarky Puppy keyboard cover)",
+    key: "Bm",
+    bpm: 124,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "piano",
+    loomId: "c82fe5fb3e384842a44e2edb71290b69",
+    background:
+      "Dua Lipaの大ヒット曲をSnarky Puppyのキーボーディストがカバー。ファンクやジャズの要素を取り入れたグルーヴィーなキーボードアレンジが学べます。",
+    tips: "ファンキーなリズムパターンとコードボイシングに注目。シンコペーションの使い方やグルーブの作り方が参考になります。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
