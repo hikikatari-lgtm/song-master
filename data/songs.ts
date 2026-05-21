@@ -10,6 +10,13 @@ export interface Song {
   loomId: string;
   background: string; // 曲について
   tips: string; // ポイント
+  chordChart?: {
+    imageUrl?: string; // 手書きコード譜の画像URL
+    sections: {
+      name: string; // セクション名（"Intro", "A", "Chorus" etc）
+      bars: string; // コード進行テキスト
+    }[];
+  };
 }
 
 export type Instrument = Song["instrument"];
@@ -815,6 +822,24 @@ export const songs: Song[] = [
     background:
       "Paramoreの「Looking Up」のギターレッスン。TAB譜付きでパンクロック/ポップロックのギターリフとパワーコードワークを学べます。",
     tips: "パワーコードとオクターブ奏法の組み合わせ。テンポが速いのでダウンピッキングの持久力が重要。",
+    chordChart: {
+      imageUrl: "",
+      sections: [
+        {
+          name: "Intro",
+          bars: "||: G#mx  C#m7 | ✕ | ✕ | A  B  A/C#  B/D# :||",
+        },
+        { name: "A", bars: "||: E | C#mx  B | ✕ | || E |" },
+        {
+          name: "C",
+          bars: "| A  E | C#mx  B | ✕ |\n| A | C#mx  B | ✕ |",
+        },
+        {
+          name: "Intro",
+          bars: "| G#mx  C#m7 | ✕ | ✕ | A  B  A/C#  B/D# |",
+        },
+      ],
+    },
   },
 ];
 

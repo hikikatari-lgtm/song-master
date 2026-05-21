@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { type Song, getInstrument, levelLabels } from "@/data/songs";
 import LoomEmbed from "./LoomEmbed";
+import ChordChart from "./ChordChart";
 
 export default function SongDetail({ song }: { song: Song }) {
   const info = getInstrument(song.instrument)!;
@@ -45,6 +46,13 @@ export default function SongDetail({ song }: { song: Song }) {
         <h2 className="mb-3 text-xl font-semibold text-gold">🎬 演奏動画</h2>
         <LoomEmbed loomId={song.loomId} title={song.title} />
       </section>
+
+      {song.chordChart ? (
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold text-gold">🎼 コード譜</h2>
+          <ChordChart chart={song.chordChart} />
+        </section>
+      ) : null}
 
       <section className="mt-10">
         <h2 className="text-xl font-semibold text-gold">💡 ポイント</h2>
