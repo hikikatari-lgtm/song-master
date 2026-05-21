@@ -802,6 +802,20 @@ export const songs: Song[] = [
     background: "RHCPの名バラードのドラムカバー。スクロールドラム譜付き。",
     tips: "静かなイントロからの展開。Scar TissueやOthersideと合わせてChad Smithのスタイルを体系的に学べます。",
   },
+  {
+    slug: "looking-up",
+    title: "Looking Up",
+    artist: "Paramore",
+    key: "Ab",
+    bpm: 144,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "electric-guitar",
+    loomId: "451e961fd6984669856d9c1fb9e9c2ba",
+    background:
+      "Paramoreの「Looking Up」のギターレッスン。TAB譜付きでパンクロック/ポップロックのギターリフとパワーコードワークを学べます。",
+    tips: "パワーコードとオクターブ奏法の組み合わせ。テンポが速いのでダウンピッキングの持久力が重要。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
