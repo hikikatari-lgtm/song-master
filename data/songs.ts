@@ -13,6 +13,7 @@ export interface Song {
     loomId: string;
   }[];
   background: string; // 曲について
+  artistVideoId?: string; // 「この曲について」内に表示する本人映像のLoom ID
   tips: string; // ポイント
   chordChart?: {
     imageUrl?: string; // 手書きコード譜の画像URL
@@ -872,9 +873,9 @@ export const songs: Song[] = [
     ],
     background:
       "Philip Sayceの「Morning Star」。ブルースロックの真髄が詰まったギターインスト曲。エモーショナルなベンドとビブラートが特徴。",
+    artistVideoId: "dd26d4e8cde541bfa9bdf8a68bbabc53",
     tips: "3パートに分けた詳細解説。ブルースペンタトニック＋マイナーペンタトニックを駆使したフレージング。感情を込めたベンドとビブラートが鍵。",
     studentVideos: [
-      { title: "本人映像", loomId: "dd26d4e8cde541bfa9bdf8a68bbabc53" },
       { title: "生徒演奏", loomId: "47d4030f84314f73bfc608c18745e138" },
     ],
   },

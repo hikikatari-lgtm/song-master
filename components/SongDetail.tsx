@@ -41,6 +41,11 @@ export default function SongDetail({ song }: { song: Song }) {
         <p className="mt-3 leading-relaxed text-neutral-300">
           {song.background}
         </p>
+        {song.artistVideoId ? (
+          <div className="mt-4">
+            <LoomEmbed loomId={song.artistVideoId} title={`${song.title} 本人映像`} />
+          </div>
+        ) : null}
       </section>
 
       <section className="mt-10">
