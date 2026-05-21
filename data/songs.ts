@@ -6,7 +6,7 @@ export interface Song {
   bpm: number;
   genre: string; // "Jazz", "Pop", "Rock" etc
   level: "beginner" | "intermediate" | "advanced";
-  instrument: "piano" | "electric-guitar" | "acoustic-guitar" | "bass";
+  instrument: "piano" | "electric-guitar" | "acoustic-guitar" | "bass" | "drums";
   loomId: string;
   background: string; // 曲について
   tips: string; // ポイント
@@ -25,6 +25,7 @@ export const instruments: InstrumentInfo[] = [
   { slug: "electric-guitar", name: "Electric Guitar", emoji: "🎸" },
   { slug: "acoustic-guitar", name: "Acoustic Guitar", emoji: "🎵" },
   { slug: "bass", name: "Bass", emoji: "🎸" },
+  { slug: "drums", name: "Drums", emoji: "🥁" },
 ];
 
 export const levelLabels: Record<Song["level"], string> = {
