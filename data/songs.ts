@@ -823,7 +823,7 @@ export const songs: Song[] = [
       "Paramoreの「Looking Up」のギターレッスン。TAB譜付きでパンクロック/ポップロックのギターリフとパワーコードワークを学べます。",
     tips: "パワーコードとオクターブ奏法の組み合わせ。テンポが速いのでダウンピッキングの持久力が重要。",
     chordChart: {
-      imageUrl: "/charts/looking-up.jpg",
+      imageUrl: "https://lh3.googleusercontent.com/d/1dhuJ3hl3-E4xHPzhHPfvwW59vXx6Z03t",
       sections: [
         {
           name: "Intro",
