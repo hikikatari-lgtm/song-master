@@ -17,6 +17,10 @@ export interface Song {
       bars: string; // コード進行テキスト
     }[];
   };
+  studentVideos?: {
+    title: string; // 例: "生徒演奏"
+    loomId: string;
+  }[];
 }
 
 export type Instrument = Song["instrument"];
@@ -349,6 +353,9 @@ export const songs: Song[] = [
     background:
       "Robert Johnsonの原曲をCreamがロックアレンジした伝説のライブバージョン。Eric Claptonのブルースギターの真髄。",
     tips: "Aマイナーペンタトニック＋メジャーペンタトニックの切り替えがClaptonスタイルの核。高速シャッフルでのピッキングコントロールに注目。",
+    studentVideos: [
+      { title: "生徒演奏", loomId: "ea4c6f2b2484417eb981cd2a89960d7f" },
+    ],
   },
   {
     slug: "black-dog",

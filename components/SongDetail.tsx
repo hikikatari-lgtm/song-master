@@ -59,6 +59,27 @@ export default function SongDetail({ song }: { song: Song }) {
         <p className="mt-3 leading-relaxed text-neutral-300">{song.tips}</p>
       </section>
 
+      {song.studentVideos && song.studentVideos.length > 0 ? (
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold text-gold">🎬 生徒演奏</h2>
+          <div className="space-y-3">
+            {song.studentVideos.map((video, i) => (
+              <a
+                key={i}
+                href={`https://www.loom.com/share/${video.loomId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-xl border border-edge bg-card px-5 py-4 transition-colors hover:border-gold/60"
+              >
+                <span className="text-xl">▶</span>
+                <span className="font-medium">{video.title}を見る</span>
+                <span className="ml-auto text-muted">↗</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <div className="mt-12 border-t border-edge pt-6">
         <Link
           href={`/${song.instrument}`}
