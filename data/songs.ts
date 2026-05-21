@@ -879,6 +879,37 @@ export const songs: Song[] = [
       { title: "生徒演奏", loomId: "47d4030f84314f73bfc608c18745e138" },
     ],
   },
+  {
+    slug: "i-wont-give-up",
+    title: "I Won't Give Up",
+    artist: "Jason Mraz",
+    key: "E",
+    bpm: 104,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "40b9c681e26844049996e18cb803cfb8",
+    background:
+      "Jason Mrazの代表曲「I Won't Give Up」。6/8拍子のアコースティックバラード。ギターの6弦開放を活かしたA/Eのアルペジオが印象的。",
+    tips: "6/8拍子のストロークパターンに注意。A/Eはギターの6弦開放をベース音として使う。Dセクションの6度ハーモニーがポイント。",
+    chordChart: {
+      imageUrl: "",
+      sections: [
+        { name: "A（Intro/Verse）", bars: "| A/E    | E      | A/E  E | E      |" },
+        {
+          name: "B C（Chorus）",
+          bars: "| Bsus4  | B      |\n| A      | E      | C#m7   | B      |\n| A      | E      | Bsus4  | B      |",
+        },
+        {
+          name: "D（Bridge）",
+          bars: "| Am7    | Am7    | F#m7   | F#m7   |\n| B Bsus4| B      | F#m7   | F#m7   |\n| B Bsus4| B      | D      | D      |\n| D#dim  | D#dim D| D#dim  | E      | E      |",
+        },
+      ],
+    },
+    studentVideos: [
+      { title: "生徒演奏", loomId: "105162d053074fca8a9816d59ca88659" },
+    ],
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
