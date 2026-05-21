@@ -343,6 +343,9 @@ export const songs: Song[] = [
     background:
       "映画「ロッキーIII」のテーマ曲。シンプルながら力強いギターリフは、ロックギター入門に最適。",
     tips: "パワーコードとミュートを使ったリフワーク。リズムの正確さとパームミュートのコントロールが鍵。初心者でも挑戦しやすい。",
+    studentVideos: [
+      { title: "生徒演奏", loomId: "fcf9ab9eeac94cb096918623faf79043" },
+    ],
   },
   {
     slug: "crossroads",
