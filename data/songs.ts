@@ -813,7 +813,7 @@ export const songs: Song[] = [
     slug: "looking-up",
     title: "Looking Up",
     artist: "Paramore",
-    key: "Ab",
+    key: "E",
     bpm: 144,
     genre: "Rock",
     level: "intermediate",
