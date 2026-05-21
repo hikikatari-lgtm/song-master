@@ -2,7 +2,7 @@ import Link from "next/link";
 import { type Song, getInstrument, levelLabels } from "@/data/songs";
 import LoomEmbed from "./LoomEmbed";
 import ChordChart from "./ChordChart";
-import StudentVideos from "./StudentVideos";
+import VideoAccordion from "./VideoAccordion";
 
 export default function SongDetail({ song }: { song: Song }) {
   const info = getInstrument(song.instrument)!;
@@ -45,7 +45,11 @@ export default function SongDetail({ song }: { song: Song }) {
 
       <section className="mt-10">
         <h2 className="mb-3 text-xl font-semibold text-gold">🎬 演奏動画</h2>
-        <LoomEmbed loomId={song.loomId} title={song.title} />
+        {song.loomVideos && song.loomVideos.length > 0 ? (
+          <VideoAccordion videos={song.loomVideos} defaultOpenIndex={0} />
+        ) : (
+          <LoomEmbed loomId={song.loomId} title={song.title} />
+        )}
       </section>
 
       {song.chordChart ? (
@@ -63,7 +67,7 @@ export default function SongDetail({ song }: { song: Song }) {
       {song.studentVideos && song.studentVideos.length > 0 ? (
         <section className="mt-10">
           <h2 className="mb-3 text-xl font-semibold text-gold">🎬 生徒演奏</h2>
-          <StudentVideos videos={song.studentVideos} />
+          <VideoAccordion videos={song.studentVideos} />
         </section>
       ) : null}
 

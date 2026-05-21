@@ -1,15 +1,21 @@
 "use client";
 
 import { useState } from "react";
-import type { Song } from "@/data/songs";
 import LoomEmbed from "./LoomEmbed";
 
-export default function StudentVideos({
+interface Video {
+  title: string;
+  loomId: string;
+}
+
+export default function VideoAccordion({
   videos,
+  defaultOpenIndex = null,
 }: {
-  videos: NonNullable<Song["studentVideos"]>;
+  videos: Video[];
+  defaultOpenIndex?: number | null;
 }) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(defaultOpenIndex);
 
   return (
     <div className="space-y-3">
@@ -27,7 +33,9 @@ export default function StudentVideos({
             >
               <span className="text-xl">▶</span>
               <span className="font-medium">{video.title}</span>
-              <span className="ml-auto text-muted">{isOpen ? "閉じる −" : "見る +"}</span>
+              <span className="ml-auto text-muted">
+                {isOpen ? "閉じる −" : "見る +"}
+              </span>
             </button>
             {isOpen ? (
               <div className="border-t border-edge p-4">

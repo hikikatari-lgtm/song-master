@@ -8,6 +8,10 @@ export interface Song {
   level: "beginner" | "intermediate" | "advanced";
   instrument: "piano" | "electric-guitar" | "acoustic-guitar" | "bass" | "drums";
   loomId: string;
+  loomVideos?: {
+    title: string;
+    loomId: string;
+  }[];
   background: string; // 曲について
   tips: string; // ポイント
   chordChart?: {
@@ -847,6 +851,28 @@ export const songs: Song[] = [
         },
       ],
     },
+  },
+  {
+    slug: "morning-star",
+    title: "Morning Star",
+    artist: "Philip Sayce",
+    key: "Em",
+    bpm: 77,
+    genre: "Blues",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "edd67247f08c40b5966f4f19b36594a7",
+    loomVideos: [
+      { title: "Part 1", loomId: "edd67247f08c40b5966f4f19b36594a7" },
+      { title: "Part 2", loomId: "ef1443495629486582562724f7ed90ec" },
+      { title: "Part 3", loomId: "3f8c1fa446254ba6b4d10d3cd44332c7" },
+    ],
+    background:
+      "Philip Sayceの「Morning Star」。ブルースロックの真髄が詰まったギターインスト曲。エモーショナルなベンドとビブラートが特徴。",
+    tips: "3パートに分けた詳細解説。ブルースペンタトニック＋マイナーペンタトニックを駆使したフレージング。感情を込めたベンドとビブラートが鍵。",
+    studentVideos: [
+      { title: "生徒演奏", loomId: "47d4030f84314f73bfc608c18745e138" },
+    ],
   },
 ];
 
