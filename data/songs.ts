@@ -874,8 +874,8 @@ export const songs: Song[] = [
       "Philip Sayceの「Morning Star」。ブルースロックの真髄が詰まったギターインスト曲。エモーショナルなベンドとビブラートが特徴。",
     tips: "3パートに分けた詳細解説。ブルースペンタトニック＋マイナーペンタトニックを駆使したフレージング。感情を込めたベンドとビブラートが鍵。",
     studentVideos: [
-      { title: "生徒演奏", loomId: "47d4030f84314f73bfc608c18745e138" },
       { title: "本人映像", loomId: "dd26d4e8cde541bfa9bdf8a68bbabc53" },
+      { title: "生徒演奏", loomId: "47d4030f84314f73bfc608c18745e138" },
     ],
   },
 ];
