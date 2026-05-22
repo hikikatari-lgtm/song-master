@@ -359,6 +359,10 @@ export const songs: Song[] = [
     level: "advanced",
     instrument: "electric-guitar",
     loomId: "b0b4ea5685a6450e9f3a11de078b24e3",
+    loomVideos: [
+      { title: "解説 Part 1", loomId: "b0b4ea5685a6450e9f3a11de078b24e3" },
+      { title: "解説 Part 2", loomId: "a7dc64e260684b209d93917c01675797" },
+    ],
     background:
       "Robert Johnsonの原曲をCreamがロックアレンジした伝説のライブバージョン。Eric Claptonのブルースギターの真髄。",
     tips: "Aマイナーペンタトニック＋メジャーペンタトニックの切り替えがClaptonスタイルの核。高速シャッフルでのピッキングコントロールに注目。",
