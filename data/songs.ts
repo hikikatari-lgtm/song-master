@@ -952,7 +952,7 @@ export const songs: Song[] = [
     title: "Joy to the World",
     artist: "Three Dog Night",
     key: "D",
-    bpm: 140,
+    bpm: 129,
     genre: "Rock",
     level: "intermediate",
     instrument: "acoustic-guitar",
