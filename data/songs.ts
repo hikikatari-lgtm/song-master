@@ -910,6 +910,21 @@ export const songs: Song[] = [
       { title: "生徒演奏", loomId: "105162d053074fca8a9816d59ca88659" },
     ],
   },
+  {
+    slug: "shinkokyu",
+    title: "深呼吸",
+    artist: "ハナレグミ",
+    key: "Gb",
+    bpm: 68,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "39924d87073943d894addd54f81ab808",
+    background:
+      "ハナレグミ（永積崇）の楽曲「深呼吸」。アコースティックギターの弾き語りで聴かせる、温かみのあるバラード。",
+    artistVideoId: "54b294e7ad094768874529b36de6034a",
+    tips: "原曲は半音下げチューニングでキー=Gb。演奏動画はレギュラーチューニング（キー=G）で解説しているので、半音下げにすれば原曲キーで演奏できます。ゆったりしたテンポでのストロークとダイナミクスのコントロールが鍵。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
