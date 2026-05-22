@@ -48,6 +48,20 @@ export default function SongDetail({ song }: { song: Song }) {
         ) : null}
       </section>
 
+      {song.audioUrl ? (
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold text-gold">🎧 音源</h2>
+          <audio
+            controls
+            preload="metadata"
+            src={song.audioUrl}
+            className="w-full rounded-xl border border-edge bg-card"
+          >
+            お使いのブラウザは音声の再生に対応していません。
+          </audio>
+        </section>
+      ) : null}
+
       <section className="mt-10">
         <h2 className="mb-3 text-xl font-semibold text-gold">🎬 演奏動画</h2>
         {song.loomVideos && song.loomVideos.length > 0 ? (

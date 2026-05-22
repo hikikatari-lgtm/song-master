@@ -14,6 +14,7 @@ export interface Song {
   }[];
   background: string; // 曲について
   artistVideoId?: string; // 「この曲について」内に表示する本人映像のLoom ID
+  audioUrl?: string; // 音源ファイルのパス（public/ 以下を基準。例: "/audio/xxx.m4a"）
   tips: string; // ポイント
   chordChart?: {
     imageUrl?: string; // 手書きコード譜の画像URL
@@ -945,6 +946,35 @@ export const songs: Song[] = [
     background:
       "Jamiroquaiの代表曲「Virtual Insanity」。アコースティックギターでコードとウォーキングベースを同時に演奏するアレンジに挑戦。アシッドジャズ／ファンクの名曲。",
     tips: "原曲はキー=Ebmだが、このレッスンでは弾きやすいEmで解説。イントロのコードワークと、ウォーキングベースラインの組み立て方を2本の動画で段階的に学べます。",
+  },
+  {
+    slug: "joy-to-the-world",
+    title: "Joy to the World",
+    artist: "Three Dog Night",
+    key: "D",
+    bpm: 140,
+    genre: "Rock",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "6f7fdf282434425986990ce3a57b61db",
+    audioUrl: "/audio/joy-to-the-world.m4a",
+    background:
+      "Three Dog Nightの大ヒット曲「Joy to the World」。「Jeremiah was a bullfrog」の歌い出しで知られる1971年のロッククラシック。アコースティックギターでコードと経過音の動きを学べます。",
+    tips: "Key=D。D→D7/C→G7/B→Bb と動くベースラインのクロマチックな下降に注目。C Db D の半音アプローチがこの曲の決めフレーズ。音源を聴きながらコード譜と合わせて練習しましょう。",
+    chordChart: {
+      imageUrl: "",
+      sections: [
+        { name: "Intro", bars: "| D    C  | G    Bb | F    C  Db  D |" },
+        {
+          name: "A",
+          bars: "| D    | D    C Db D | D    | D    C Db D |\n| D    D7/C | G7/B   Bb | D    A | D    |\n| G    A | D    |",
+        },
+        {
+          name: "C",
+          bars: "| D    | ✕ | A    | D    |\n| D    D7/C | G7/B   Bb | D    A | D    C Db D |",
+        },
+      ],
+    },
   },
 ];
 
