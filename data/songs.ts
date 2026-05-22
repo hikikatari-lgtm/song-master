@@ -970,6 +970,27 @@ export const songs: Song[] = [
         "https://lh3.googleusercontent.com/d/1NPxqSex_Bx7WAnxLG3vOz7wxOXgzRZXZ",
     },
   },
+  {
+    slug: "superstition",
+    title: "Superstition",
+    artist: "Stevie Wonder",
+    key: "Eb",
+    bpm: 100,
+    genre: "Funk",
+    level: "intermediate",
+    instrument: "electric-guitar",
+    loomId: "6d267862ecad4a33864183333cddc7e2",
+    background:
+      "Stevie Wonderの代表曲「Superstition」。クラヴィネットの印象的なリフで知られる1972年のファンククラシック。エレキギターでファンクのカッティングとリフワークを学べます。",
+    tips: "Key=Eb。16分音符のファンキーなカッティングとミュートのコントロールが核。タイトなリズムキープとゴーストノートでグルーヴを生み出しましょう。",
+    chordChart: {
+      imageUrl:
+        "https://lh3.googleusercontent.com/d/1r_b_j1YuVaZPqt3QVoKcglqskNt9KrU7",
+    },
+    studentVideos: [
+      { title: "生徒演奏", loomId: "e32159aed0ea427fa16893130bd7082c" },
+    ],
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
