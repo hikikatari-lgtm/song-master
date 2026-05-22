@@ -18,16 +18,18 @@ export default function ChordChart({
         </div>
       ) : null}
 
-      <div className="overflow-x-auto rounded-xl border border-edge bg-card p-5">
-        <div className="space-y-4 font-mono text-sm">
-          {chart.sections.map((section, i) => (
-            <div key={i}>
-              <span className="text-gold">[{section.name}]</span>
-              <pre className="mt-1 whitespace-pre leading-relaxed text-neutral-300">{section.bars}</pre>
-            </div>
-          ))}
+      {chart.sections && chart.sections.length > 0 ? (
+        <div className="overflow-x-auto rounded-xl border border-edge bg-card p-5">
+          <div className="space-y-4 font-mono text-sm">
+            {chart.sections.map((section, i) => (
+              <div key={i}>
+                <span className="text-gold">[{section.name}]</span>
+                <pre className="mt-1 whitespace-pre leading-relaxed text-neutral-300">{section.bars}</pre>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 }

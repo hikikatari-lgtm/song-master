@@ -18,7 +18,7 @@ export interface Song {
   tips: string; // ポイント
   chordChart?: {
     imageUrl?: string; // 手書きコード譜の画像URL
-    sections: {
+    sections?: {
       name: string; // セクション名（"Intro", "A", "Chorus" etc）
       bars: string; // コード進行テキスト
     }[];
@@ -962,18 +962,8 @@ export const songs: Song[] = [
       "Three Dog Nightの大ヒット曲「Joy to the World」。「Jeremiah was a bullfrog」の歌い出しで知られる1971年のロッククラシック。アコースティックギターでコードと経過音の動きを学べます。",
     tips: "Key=D。D→D7/C→G7/B→Bb と動くベースラインのクロマチックな下降に注目。C Db D の半音アプローチがこの曲の決めフレーズ。音源を聴きながらコード譜と合わせて練習しましょう。",
     chordChart: {
-      imageUrl: "",
-      sections: [
-        { name: "Intro", bars: "| D    C  | G    Bb | F    C  Db  D |" },
-        {
-          name: "A",
-          bars: "| D    | D    C Db D | D    | D    C Db D |\n| D    D7/C | G7/B   Bb | D    A | D    |\n| G    A | D    |",
-        },
-        {
-          name: "C",
-          bars: "| D    | ✕ | A    | D    |\n| D    D7/C | G7/B   Bb | D    A | D    C Db D |",
-        },
-      ],
+      imageUrl:
+        "https://lh3.googleusercontent.com/d/1NPxqSex_Bx7WAnxLG3vOz7wxOXgzRZXZ",
     },
   },
 ];
