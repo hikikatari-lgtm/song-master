@@ -925,6 +925,27 @@ export const songs: Song[] = [
     artistVideoId: "54b294e7ad094768874529b36de6034a",
     tips: "原曲は半音下げチューニングでキー=Gb。演奏動画はレギュラーチューニング（キー=G）で解説しているので、半音下げにすれば原曲キーで演奏できます。ゆったりしたテンポでのストロークとダイナミクスのコントロールが鍵。",
   },
+  {
+    slug: "virtual-insanity",
+    title: "Virtual Insanity",
+    artist: "Jamiroquai",
+    key: "Ebm",
+    bpm: 92,
+    genre: "Funk",
+    level: "advanced",
+    instrument: "acoustic-guitar",
+    loomId: "9d7d96273521411baee8099546d4af0a",
+    loomVideos: [
+      { title: "イントロ解説", loomId: "9d7d96273521411baee8099546d4af0a" },
+      {
+        title: "ウォーキングベースの作り方",
+        loomId: "716f216fc4fa404ca8268575d0134525",
+      },
+    ],
+    background:
+      "Jamiroquaiの代表曲「Virtual Insanity」。アコースティックギターでコードとウォーキングベースを同時に演奏するアレンジに挑戦。アシッドジャズ／ファンクの名曲。",
+    tips: "原曲はキー=Ebmだが、このレッスンでは弾きやすいEmで解説。イントロのコードワークと、ウォーキングベースラインの組み立て方を2本の動画で段階的に学べます。",
+  },
 ];
 
 export function getSongsByInstrument(instrument: Instrument): Song[] {
