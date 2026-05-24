@@ -972,6 +972,33 @@ export const songs: Song[] = [
     },
   },
   {
+    slug: "done",
+    title: "Done",
+    artist: "The Band Perry",
+    key: "G (Capo 1 / 原曲 Ab)",
+    bpm: 142,
+    genre: "Country",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "42c64923a22d4c17b779527c03c6c30f",
+    audioUrl: "/audio/done.mp3",
+    background:
+      "The Band Perryの「Done」。カントリーロックのドライブ感あふれるアップテンポなナンバー。1カポでKey=Gのフォームで弾くと原曲のKey=Abになります。Gミクソリディアンスケール（メジャースケールの7番目を半音下げたスケール）を使った印象的なギターリフが特徴。",
+    tips: "ダイアトニックは I・IV・bVII・bIII・V = G・C・F・Bb・D。bVII（F）と bIII（Bb）が入ることでミクソリディアン／ロック的な響きが生まれます。リフはパワーコードでアグレッシブに、Aセクション終わりの Q.cho（クォーターチョーキング）でブルージーなニュアンスを出しましょう。",
+    chordChart: {
+      sections: [
+        {
+          name: "A",
+          bars: "| G | G | C | G | F |\n| G | G | C | G | F | C |",
+        },
+        {
+          name: "C",
+          bars: "| G | G | Bb C  Bb C | G | G | Bb C  Bb C | G |\n| Bb C | Bb C | N.C. |",
+        },
+      ],
+    },
+  },
+  {
     slug: "good-girl",
     title: "Good Girl",
     artist: "Carrie Underwood",
