@@ -972,6 +972,21 @@ export const songs: Song[] = [
     },
   },
   {
+    slug: "good-girl",
+    title: "Good Girl",
+    artist: "Carrie Underwood",
+    key: "F#",
+    bpm: 144,
+    genre: "Country",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "95d6a96ea49245c481720c52e4ad865f",
+    audioUrl: "/audio/good-girl.mp3",
+    background:
+      "Carrie Underwoodの「Good Girl」。2012年リリースのカントリーポップヒット。ドライブ感のあるアコースティックギターのストロークが楽曲を引っ張ります。",
+    tips: "アップテンポなカントリーロック調のストロークパターンが核。コードチェンジを正確にキープしながら、リズムのドライブ感を出すことを意識しましょう。",
+  },
+  {
     slug: "so-easy",
     title: "So Easy (To Fall In Love)",
     artist: "Olivia Dean",
