@@ -972,6 +972,33 @@ export const songs: Song[] = [
     },
   },
   {
+    slug: "waves",
+    title: "Waves",
+    artist: "Melt",
+    key: "Em",
+    bpm: 92,
+    genre: "Alternative",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "da10d29f6b1d4f23a1ccc7232934976b",
+    audioUrl: "/audio/waves.mp3",
+    background:
+      "Meltの「Waves」。Em キーのメロウなアコースティックナンバー。Em7・CM7・F#m7(b5) といった7thコードのスムースな響きと、サビでの D/F# を経由するベースラインの動きが学べます。",
+    tips: "Key=Em。Aセクションは Em7 → CM7 → F#m7(b5) → CM7 の循環。F#m7(b5) はマイナーキーの IIm7(b5) で、サブドミナントマイナー的な切ない響き。Cセクション後半の G → D/F# → Em → D は半音ずつ下降するベースラインがポイントです。",
+    chordChart: {
+      sections: [
+        { name: "A", bars: "||: Em7 | CM7 | F#m7(b5) | CM7 :||" },
+        {
+          name: "C",
+          bars: "| Em7  D | C  G | % | % |\n| % | G  D/F#  Em  D | C |",
+        },
+      ],
+    },
+    studentVideos: [
+      { title: "生徒演奏", loomId: "c5e396fee95c449ab8910ee10ccb6d21" },
+    ],
+  },
+  {
     slug: "done",
     title: "Done",
     artist: "The Band Perry",
