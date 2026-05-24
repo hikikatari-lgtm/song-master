@@ -1017,6 +1017,29 @@ export const songs: Song[] = [
     },
   },
   {
+    slug: "starting-line",
+    title: "Starting Line (feat. Emily C. Browning)",
+    artist: "Cory Wong",
+    key: "Eb",
+    bpm: 105,
+    genre: "Funk",
+    level: "advanced",
+    instrument: "electric-guitar",
+    loomId: "a61bd282e5004570ad4a024758f9a5cd",
+    audioUrl: "/audio/starting-line.mp3",
+    background:
+      "Cory Wongの「Starting Line (feat. Emily C. Browning)」。タイトでクリーンなファンクカッティングが光るCory Wongスタイルの代表曲。Key=Ebでのダイアトニックなコード進行と心地よいリズムワークが学べます。",
+    tips: "Key=Eb。1,2,3弦のダブルストップとルートレスヴォイシングで心地よくカッティング。IVm7→IIIm7→IIm7 のダイアトニックな下降ラインがこの曲の核。ハイポジション（11〜16フレット付近）でのコンパクトな押さえ方を意識しましょう。",
+    chordChart: {
+      sections: [
+        {
+          name: "メイン進行",
+          bars: "| AbM7  Gm7 | Fm7  Gm7 | AbM7  Gm7  Cm7 | Eb7 |\n| AbM7  Gm7 | Fm7 | Cm7 | Eb |",
+        },
+      ],
+    },
+  },
+  {
     slug: "superstition",
     title: "Superstition",
     artist: "Stevie Wonder",
