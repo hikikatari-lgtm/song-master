@@ -975,7 +975,7 @@ export const songs: Song[] = [
     slug: "good-girl",
     title: "Good Girl",
     artist: "Carrie Underwood",
-    key: "F#",
+    key: "D (Capo 1 / 原曲 Eb)",
     bpm: 144,
     genre: "Country",
     level: "intermediate",
@@ -984,7 +984,7 @@ export const songs: Song[] = [
     audioUrl: "/audio/good-girl.mp3",
     background:
       "Carrie Underwoodの「Good Girl」。2012年リリースのカントリーポップヒット。ドライブ感のあるアコースティックギターのストロークが楽曲を引っ張ります。",
-    tips: "アップテンポなカントリーロック調のストロークパターンが核。コードチェンジを正確にキープしながら、リズムのドライブ感を出すことを意識しましょう。",
+    tips: "1カポでKey=Dのフォームで弾くと原曲のKey=Ebになります。アップテンポなカントリーロック調のストロークパターンが核。コードチェンジを正確にキープしながら、リズムのドライブ感を出すことを意識しましょう。",
   },
   {
     slug: "so-easy",
