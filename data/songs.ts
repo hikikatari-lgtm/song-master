@@ -15,6 +15,7 @@ export interface Song {
   background: string; // 曲について
   artistVideoId?: string; // 「この曲について」内に表示する本人映像のLoom ID
   audioUrl?: string; // 音源ファイルのパス（public/ 以下を基準。例: "/audio/xxx.m4a"）
+  analysisUrl?: string; // 曲の詳細解説ページ（外部リンク）
   tips: string; // ポイント
   chordChart?: {
     imageUrl?: string; // 手書きコード譜の画像URL
@@ -981,6 +982,8 @@ export const songs: Song[] = [
     instrument: "acoustic-guitar",
     loomId: "414191271ed8407fafa3a53b01d7b058",
     audioUrl: "/audio/so-easy.mp3",
+    analysisUrl:
+      "https://hikikatari-lgtm.github.io/song-library-visualizer/songs/so-easy.html",
     background:
       "Olivia Deanの「So Easy (To Fall In Love)」。ネオソウル／R&Bの香り漂うアップテンポなポップソング。アコースティックギターでテンションコードとオシャレなボイシングを学べます。",
     tips: "Key=Eb。Fm11、Gm11、Em7(b5)、Adim などのテンションコード／クリシェの響きが核。Ab/Bb の分数コードや Ebmaj7 → Em7(b5) の半音上行など、コード進行の動きを意識して弾きましょう。",

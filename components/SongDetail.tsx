@@ -46,6 +46,16 @@ export default function SongDetail({ song }: { song: Song }) {
             <LoomEmbed loomId={song.artistVideoId} title={`${song.title} 本人映像`} />
           </div>
         ) : null}
+        {song.analysisUrl ? (
+          <a
+            href={song.analysisUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-sm text-gold transition-colors hover:bg-gold/20"
+          >
+            🔎 詳しいコード進行分析を見る →
+          </a>
+        ) : null}
       </section>
 
       {song.audioUrl ? (
