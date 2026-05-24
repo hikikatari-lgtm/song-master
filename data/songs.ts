@@ -971,6 +971,34 @@ export const songs: Song[] = [
     },
   },
   {
+    slug: "so-easy",
+    title: "So Easy (To Fall In Love)",
+    artist: "Olivia Dean",
+    key: "Eb",
+    bpm: 140,
+    genre: "Pop",
+    level: "intermediate",
+    instrument: "acoustic-guitar",
+    loomId: "414191271ed8407fafa3a53b01d7b058",
+    audioUrl: "/audio/so-easy.mp3",
+    background:
+      "Olivia Deanの「So Easy (To Fall In Love)」。ネオソウル／R&Bの香り漂うアップテンポなポップソング。アコースティックギターでテンションコードとオシャレなボイシングを学べます。",
+    tips: "Key=Eb。Fm11、Gm11、Em7(b5)、Adim などのテンションコード／クリシェの響きが核。Ab/Bb の分数コードや Ebmaj7 → Em7(b5) の半音上行など、コード進行の動きを意識して弾きましょう。",
+    chordChart: {
+      sections: [
+        { name: "Intro", bars: "| Fm11 | Gm11 |" },
+        {
+          name: "A",
+          bars: "| Ab/Bb | % | Ebmaj7 | Em7(b5) |\n| Ab/Bb | % | Ebmaj7 | C7 |",
+        },
+        {
+          name: "C",
+          bars: "| Fm7 | Ab/Bb | Cm7 | C7 |\n| Fm7 | Ab/Bb | Cm7 | Adim |\n| Fm11 | Gm11 |",
+        },
+      ],
+    },
+  },
+  {
     slug: "superstition",
     title: "Superstition",
     artist: "Stevie Wonder",
