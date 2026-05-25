@@ -15,6 +15,7 @@ export interface Song {
   background: string; // 曲について
   artistVideoId?: string; // 「この曲について」内に表示する本人映像のLoom ID
   audioUrl?: string; // 音源ファイルのパス（public/ 以下を基準。例: "/audio/xxx.m4a"）
+  driveAudioId?: string; // Google DriveファイルID（埋め込みプレイヤーで再生）
   youtubeId?: string; // YouTube動画ID（音源代わりにページ内で埋め込み再生）
   analysisUrl?: string; // 曲の詳細解説ページ（外部リンク）
   tips: string; // ポイント
@@ -983,7 +984,7 @@ export const songs: Song[] = [
     level: "intermediate",
     instrument: "acoustic-guitar",
     loomId: "da10d29f6b1d4f23a1ccc7232934976b",
-    audioUrl: "/audio/waves.mp3",
+    driveAudioId: "1jJ_7WL_Makkajv-N-Qg9qdcyVf-06FJe",
     background:
       "Meltの「Waves」。Em キーのメロウなアコースティックナンバー。Em7・CM7・Dbm7(b5) といった7thコードのスムースな響きと、サビでの D/F# を経由するベースラインの動きが学べます。",
     tips: "Key=Em。Aセクションは Em7 → CM7 → Dbm7(b5) → CM7 の循環。Dbm7(b5) のミステリアスでテンション感のある響きがこの曲のフックになっています。Cセクション後半の G → D/F# → Em → D は半音ずつ下降するベースラインがポイントです。",

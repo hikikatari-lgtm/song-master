@@ -88,6 +88,21 @@ export default function SongDetail({ song }: { song: Song }) {
         </section>
       ) : null}
 
+      {song.driveAudioId ? (
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold text-gold">🎧 音源</h2>
+          <div className="overflow-hidden rounded-xl border border-edge bg-card">
+            <iframe
+              src={`https://drive.google.com/file/d/${song.driveAudioId}/preview`}
+              title={`${song.title} 音源`}
+              loading="lazy"
+              allow="autoplay; encrypted-media"
+              className="h-20 w-full"
+            />
+          </div>
+        </section>
+      ) : null}
+
       <section className="mt-10">
         <h2 className="mb-3 text-xl font-semibold text-gold">🎬 演奏動画</h2>
         {song.loomVideos && song.loomVideos.length > 0 ? (
