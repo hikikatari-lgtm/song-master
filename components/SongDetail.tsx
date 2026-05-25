@@ -72,6 +72,22 @@ export default function SongDetail({ song }: { song: Song }) {
         </section>
       ) : null}
 
+      {song.youtubeId ? (
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold text-gold">🎧 音源</h2>
+          <div className="relative aspect-video w-full overflow-hidden rounded-xl border border-edge bg-card">
+            <iframe
+              src={`https://www.youtube-nocookie.com/embed/${song.youtubeId}`}
+              title={`${song.title} 音源`}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 h-full w-full"
+            />
+          </div>
+        </section>
+      ) : null}
+
       <section className="mt-10">
         <h2 className="mb-3 text-xl font-semibold text-gold">🎬 演奏動画</h2>
         {song.loomVideos && song.loomVideos.length > 0 ? (

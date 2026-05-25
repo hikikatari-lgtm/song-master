@@ -15,6 +15,7 @@ export interface Song {
   background: string; // 曲について
   artistVideoId?: string; // 「この曲について」内に表示する本人映像のLoom ID
   audioUrl?: string; // 音源ファイルのパス（public/ 以下を基準。例: "/audio/xxx.m4a"）
+  youtubeId?: string; // YouTube動画ID（音源代わりにページ内で埋め込み再生）
   analysisUrl?: string; // 曲の詳細解説ページ（外部リンク）
   tips: string; // ポイント
   chordChart?: {
@@ -926,6 +927,7 @@ export const songs: Song[] = [
     level: "intermediate",
     instrument: "acoustic-guitar",
     loomId: "39924d87073943d894addd54f81ab808",
+    youtubeId: "A4QAmy4lfzA",
     background:
       "ハナレグミ（永積崇）の楽曲「深呼吸」。アコースティックギターの弾き語りで聴かせる、温かみのあるバラード。",
     artistVideoId: "54b294e7ad094768874529b36de6034a",
